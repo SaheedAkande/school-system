@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Score Calculator</title>
+  <link rel="stylesheet" href="week1/styles/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">My school</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="calculator.html">Score Calculator</a>
+      <a href="broadsheet.html">Broadsheet</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Student score calculator</h2>
+
+    <div class="form-grid">
+      <div class="field">
+        <label for="student-name">Student name</label>
+        <input type="text" id="student-name" placeholder="e.g. Amina Khan">
+      </div>
+    </div>
+
+    <div class="form-grid">
+      <div class="field">
+        <label for="maths">Maths</label>
+        <input type="number" id="maths" class="score" min="0" max="100">
+      </div>
+      <div class="field">
+        <label for="english">English</label>
+        <input type="number" id="english" class="score" min="0" max="100">
+      </div>
+      <div class="field">
+        <label for="science">Science</label>
+        <input type="number" id="science" class="score" min="0" max="100">
+      </div>
+      <div class="field">
+        <label for="social">Social Studies</label>
+        <input type="number" id="social" class="score" min="0" max="100">
+      </div>
+      <div class="field">
+        <label for="computer">Computer</label>
+        <input type="number" id="computer" class="score" min="0" max="100">
+      </div>
+      </div>
+
+      <button id="calculate-btn" class="button solid">Calculate</button>
+      <p id="error-message" class="error"></p>
+
+      <div id="result" class="result hidden">
+        <h3 id="result-name"></h3>
+        <p>Total: <strong id="result-total"></strong></p>
+        <p>Average: <strong id="result-average"></strong></p>
+        <p>Grade: <strong id="result-grade"></strong></p>
+        </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My School. All rights reserved.</p>
+  </footer>
+
+  <script src="grading.js"></script>
+  <script src="calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+"school": "My School",
+"term": "First Term",
+"students": [
+    { "id": "s1", "name": "Amina Khan",    "scores": [78, 65, 82, 70, 90] },
+    { "id": "s2", "name": "Daniel Brown",  "scores": [55, 60, 48, 62, 70] },
+    { "id": "s3", "name": "Sofia Rossi",   "scores": [88, 92, 85, 79, 95] },
+    { "id": "s4", "name": "Kwame Mensah",  "scores": [42, 38, 50, 45, 60] },
+    { "id": "s5", "name": "Mei Lin",       "scores": [67, 72, 64, 58, 75] },
+    { "id": "s6", "name": "Lucas Silva",   "scores": [91, 84, 77, 88, 80] },
+    { "id": "s7", "name": "Fatima Noor",   "scores": [60, 71, 69, 74, 66] },
+    { "id": "s8", "name": "Oliver Smith",  "scores": [35, 44, 39, 52, 48] }
+  ]
+}

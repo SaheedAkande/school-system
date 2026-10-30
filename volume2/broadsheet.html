@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Broadsheet v2</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="extra.css">
+</head>
+<body>
+
+<header class="site-header">
+<div class="logo">My School</div>
+<nav><a href="broadsheet.html">Broadsheet</a></nav>
+</header>
+
+<main class="container">
+<h2>Class Broadsheet</h2>
+<p id="status" class="note">Loading...</p>
+
+<div id="stats" class="stats"></div>
+
+<div class="toolbar">
+<input type="search" id="search" placeholder="Search by name...">
+</div>
+
+<div class="table-wrap">
+<table>
+<thead><tr id="broadsheet-head"></tr></thead>
+<tbody id="broadsheet-body"></tbody>
+</table>
+</div>
+
+<h2 class="section-gap">Add a student</h2>
+<form id="add-form">
+<div class="form-grid">
+<div class="field">
+<label for="new-name">Student name</label>
+<input type="text" id="new-name">
+</div>
+</div>
+<div id="score-fields" class="form-grid"></div>
+<button type="submit" class="button solid">Add student</button>
+<p id="form-error" class="error"></p>
+</form>
+</main>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

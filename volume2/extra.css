@@ -1,0 +1,58 @@
+/* extra.css - styles added in Volume 2 (loaded after style.css) */
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.stat {
+  flex: 1 1 150px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+
+.stat strong {
+  display: block;
+  font-size: 1.6rem;
+  color: var(--primary-dark);
+}
+
+.stat span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.toolbar {
+  margin-bottom: 16px;
+}
+
+.toolbar input {
+  width: 100%;
+  max-width: 320px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.fail {
+  color: var(--danger);
+  font-weight: bold;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: var(--danger);
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.section-gap {
+  margin-top: 40px;
+}
